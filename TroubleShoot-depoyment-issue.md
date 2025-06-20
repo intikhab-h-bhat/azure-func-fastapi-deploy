@@ -12,7 +12,7 @@
 ### Narrowing Down the Cause
 * Realizing the issue was specific to my original code, I systematically checked each file and code section to identify what was blocking the deployment.
 
-* I discovered that the problem was related to the logging implementation in my code. Removing or modifying the logging resolved the deployment issue.
+* I discovered that the problem was related to the logging to a file implementation in my code. Removing or modifying the logging to file resolved the deployment issue.
 
 ### Key Learnings and Explanation
 * Sometimes, deployment tools may show success even if the function is not actually available in Azure due to errors during the trigger sync or startup process.
